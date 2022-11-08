@@ -5,20 +5,12 @@
 yarn install
 ```
 
-### Compiles and hot-reloads for development
+## 启动electron到桌面应用
 ```
-yarn serve
-```
-
-### Compiles and minifies for production
-```
-yarn build
+yarn electron:serve
 ```
 
-### Lints and fixes files
+## 打包electron桌面应用
 ```
-yarn lint
+yarn electron:build
 ```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
